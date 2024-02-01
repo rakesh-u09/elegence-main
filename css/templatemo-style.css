@@ -171,7 +171,8 @@ video {
   /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #4096ee 0%, #39ced6 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #4096ee 0%, #39ced6 100%);
+  background: linear-gradient(to bottom, #edf1eb 0%, #78d0dfc3 100%);
+  /* #e407f4 */
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4096ee', endColorstr='#39ced6', GradientType=0);
   /* IE6-9 */
@@ -382,6 +383,7 @@ a#logo {
 }
 
 .navbar-nav {
+  margin-right:100px;
   -ms-flex-direction: row;
   -webkit-flex-direction: row;
   flex-direction: row;
@@ -1004,26 +1006,51 @@ textarea.form-control {
 }
 
 .container{
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 10px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height:100%;
-  width: 100%;
+  height:auto;
+  width: 250px;
 
+  }
+  @media only screen and (max-width: 768px) {
+    /* .menu-icon {
+      display: block;
+    } */
+    .container {
+      grid-template-columns: auto auto auto;
+      margin: 25px;
+    }
+    .container .card{
+      width: 100%;
+    }
+  }
+  @media (max-width: 576px) {
+    .container {
+      /* margin: 25px; */
+      grid-template-columns: auto auto;
+      gap: 5px; /* Single column for screens up to 576px */
+    }
+    .container .card{
+      width: 100%;
+      margin: 5px;
+    }
   }
 
 .container .card{
-  margin: 5px;
-  width: auto;
-  height: auto;
+  margin: 7.5px;
+  width: 170px;
+  height:320px ;
   /* padding: 60px 30px; */
   padding: 3%;
   /* margin-right: 25px;
   margin-bottom: 25px; */
-  background: #f2f3f7;
+  background: #e8e9ec;
 
-  box-shadow: 0.6em 0.6em 1.2em #1036bd96;
+  box-shadow: 0.6em 0.6em 1.2em #20140dac;
 
   border-radius: 20px;
 }
@@ -1037,8 +1064,8 @@ textarea.form-control {
 
 .container .card .content .imgBox
 {
-  width: 100px;
-  height: 100px;
+  width: 135px;
+  height: 135px;
   border-radius: 50%;
   position: relative;
   margin-bottom: 20px;

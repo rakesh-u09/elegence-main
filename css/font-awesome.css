@@ -312,9 +312,16 @@
 }
 .fa-book:before {
   content: "\f02d";
+  
 }
 .fa-bookmark:before {
-  content: "\f02e";
+  /* content: "\f02e"; */
+  content: "";
+  display: inline-block;
+  width: 75px; /* Adjust the width and height according to your image size */
+  height: 75px;
+  background: url('../images/softwareDev.png') no-repeat center center;
+  background-size: cover;
 }
 .fa-print:before {
   content: "\f02f";
@@ -707,7 +714,12 @@
   content: "\f0c1";
 }
 .fa-cloud:before {
-  content: "\f0c2";
+  content: "";
+  display: inline-block;
+  width: 75px; /* Adjust the width and height according to your image size */
+  height: 75px;
+  background: url('../images/codeQuality.png') no-repeat center center;
+  background-size: cover;
 }
 .fa-flask:before {
   content: "\f0c3";
@@ -918,7 +930,12 @@
   content: "\f107";
 }
 .fa-desktop:before {
-  content: "\f108";
+  content: "";
+  display: inline-block;
+  width: 75px; /* Adjust the width and height according to your image size */
+  height: 75px;
+  background: url('../images/Architect.png') no-repeat center center;
+  background-size: cover;
 }
 .fa-laptop:before {
   content: "\f109";
@@ -928,7 +945,12 @@
 }
 .fa-mobile-phone:before,
 .fa-mobile:before {
-  content: "\f10b";
+  content: "";
+  display: inline-block;
+  width: 75px; /* Adjust the width and height according to your image size */
+  height: 75px;
+  background: url('../images/CorporateTraining.png') no-repeat center center;
+  background-size: cover;
 }
 .fa-circle-o:before {
   content: "\f10c";
