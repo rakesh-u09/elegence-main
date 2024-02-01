@@ -3436,3 +3436,31 @@ body {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
 }
+
+
+
+
+
+
+.announcement-bar {
+  /* background-color: #c80e0e; */
+  /* height: 60px; */
+  color: #fff;
+  /* padding: 10px; */
+  overflow: hidden;
+  position: relative;
+  top: 85px;
+}
+
+.scrolling-text {
+  animation: scrollText 15s linear infinite;
+}
+
+@keyframes scrollText {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}

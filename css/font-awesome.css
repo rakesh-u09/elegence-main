@@ -562,7 +562,12 @@
   content: "\f080";
 }
 .fa-twitter-square:before {
-  content: "\f081";
+  content: "";
+  display: inline-block;
+  width: 24px; /* Adjust the width and height according to your logo size */
+  height: 24px;
+  background: url('../images/x-twitter\ black.svg') no-repeat center center;
+  background-size: contain;
 }
 .fa-facebook-square:before {
   content: "\f082";
@@ -632,7 +637,13 @@
   content: "\f098";
 }
 .fa-twitter:before {
-  content: "\f099";
+  /* content: "\f099"; */
+  content: "";
+  display: inline-block;
+  width: 24px; /* Adjust the width and height according to your logo size */
+  height: 24px;
+  background: url('../images/x-twitter.svg') no-repeat center center;
+  background-size: contain;
 }
 .fa-facebook-f:before,
 .fa-facebook:before {
@@ -711,7 +722,13 @@
 }
 .fa-chain:before,
 .fa-link:before {
-  content: "\f0c1";
+  /* content: "\f0c1"; */
+  content: "";
+  display: inline-block;
+  width: 24px; /* Adjust the width and height according to your logo size */
+  height: 24px;
+  background: url('../images/linkedin-in.svg') no-repeat center center;
+  background-size: contain;
 }
 .fa-cloud:before {
   content: "";
