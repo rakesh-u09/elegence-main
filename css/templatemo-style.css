@@ -70,7 +70,7 @@ html {
 }
 .logoPthinks{
   margin-left:8%;
-  height: 8%;
+  height: 7%;
   width: 60px;
 }
 
@@ -448,16 +448,17 @@ a#logo {
   margin: 0;
   padding: 0;
   list-style: none;
+  
 }
 
 .social-icons li {
   display: block;
-  margin: 1px 0px;
+  /* margin: 1px 0px; */
 }
 
 .social-icons li a {
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 40px;
   display: inline-block;
   line-height: 50px;
   text-align: center;
@@ -467,8 +468,8 @@ a#logo {
 }
 
 .social-icons li a:hover {
-  color: #1e1e1e;
-  background-color: #fff;
+  color: #fbfbfb;
+  background-color: #5e5d5d;
 }
 
 /*==============================================
@@ -1037,6 +1038,15 @@ textarea.form-control {
     .container .card{
       width: 100%;
       margin: 5px;
+    }
+    .announcement-bar {
+      /* background-color: #c80e0e; */
+      /* height: 60px; */
+      color: #fff;
+      /* padding: 10px; */
+      overflow: hidden;
+      position: relative;
+      top: 100px;
     }
   }
 
