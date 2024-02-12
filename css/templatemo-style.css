@@ -174,7 +174,7 @@ video {
   /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #4096ee 0%, #39ced6 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #f8f9f9 0%, #d3f1f3 100%);
+  background: linear-gradient(to bottom, #f8f9f9 0%, #71e7f0 100%);
   /* #e407f4 */
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4096ee', endColorstr='#39ced6', GradientType=0);
@@ -1031,8 +1031,9 @@ textarea.form-control {
     .container .card{
       width: 100%;
     }
+
   }
-  @media (max-width: 576px) {
+  @media only screen and (max-width: 575px) {
     .container {
       /* margin: 25px; */
       padding: 25p;
@@ -1050,6 +1051,7 @@ textarea.form-control {
       position: relative;
       top: 100px;
     }
+
   }
 
 .container .card{
@@ -1132,4 +1134,65 @@ footer {
   padding: 25px;
   text-align: center;
   align-items: center;
+}
+
+
+.secDiv{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.secDiv .notification{
+  /* background-color: rgb(190, 188, 188); */
+  background-color: rgba(242, 239, 239, 0.274);
+  height: 320px;
+  width: 400px;
+  padding: 15px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+
+  box-shadow: 0.6em 0.6em 1.2em #20140dac;
+}
+.secDiv .notification h4{
+  font-style:normal;
+  font-weight: bolder;
+  
+}
+.secDiv .notification p{
+  font-family:'Times New Roman', Times, serif;
+}
+.secDiv .notification h6{
+  display: block;
+  font-size: .95em;
+  /* margin-left: 0;
+  margin-right: 0; */
+  /* font-weight: bold; */
+}
+.secDiv .notification ul{
+  list-style-type: square;
+  font-family: 'Times New Roman', Times, serif;
+}
+.secDiv ul li {
+  text-align: left; 
+}
+@media screen and (max-width: 1024px) {
+  .secDiv {
+    grid-template-columns: auto auto; 
+    max-width: 150px;
+    padding: 10px;
+    margin: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .secDiv {
+    grid-template-columns: auto; 
+    max-width: 150px;
+    padding: 10px;
+    margin: 25px;
+  }
 }
