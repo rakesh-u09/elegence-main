@@ -174,7 +174,7 @@ video {
   /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #4096ee 0%, #39ced6 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #f8f9f9 0%, #71e7f0 100%);
+  background: linear-gradient(to bottom, #f8f9f9 0%, #44f6db 100%);
   /* #e407f4 */
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4096ee', endColorstr='#39ced6', GradientType=0);
@@ -273,13 +273,13 @@ video {
   display: flex;
   flex: 1 0 auto;
 }
-
+/* 39ced6 */
 .preloader {
   background: -moz-linear-gradient(top, #4096ee 0%, #39ced6 100%);
   /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #4096ee 0%, #39ced6 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #4096ee 0%, #39ced6 100%);
+  background: linear-gradient(to bottom, #4096ee 0%, #02e4f0 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4096ee', endColorstr='#39ced6', GradientType=0);
   /* IE6-9 */
@@ -649,6 +649,7 @@ a#logo {
   height: 100%;
 }
 
+
 .services-list .item:hover {
   background-color: #fff;
   color: #1e1e1e;
@@ -661,7 +662,10 @@ a#logo {
   margin-bottom: 10px;
   padding: 10px;
 }
-
+.service-box p:last-child:hover {
+  color: black;
+  margin: 0;
+}
 .service-box p:last-child {
   margin: 0;
 }
@@ -1152,7 +1156,6 @@ footer {
   height: 320px;
   width: 400px;
   padding: 15px;
-  /* border: 1px solid black; */
   border-radius: 10px;
 
   box-shadow: 0.6em 0.6em 1.2em #20140dac;
@@ -1195,4 +1198,49 @@ footer {
     padding: 10px;
     margin: 25px;
   }
+}
+
+
+
+
+
+
+
+/*      Announcement css */
+.announcements{
+  width: 100%;
+  align-items: center;
+
+  
+  /* border: 1px solid black; */
+  
+
+
+  /* display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; */
+}
+
+.announcements .announcement{
+  /* width: 250px; */
+  /* margin: 5px; */
+  padding: 10px;
+  
+  border-radius: 10px;
+
+  /* box-shadow: 0.2em 0.2em 0.4em #151210ac; */
+  /* align-items: center; */
+  /* border: 1px dotted black; */
+}
+
+.announcements .announcement h4{
+  margin-bottom: 5px;
+  align-items: center;
+}
+.announcements .announcement h5{
+  margin-bottom: 5px;
+  font-size: 18px;
 }
