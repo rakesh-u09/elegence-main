@@ -1244,3 +1244,7 @@ footer {
   margin-bottom: 5px;
   font-size: 18px;
 }
+
+.highlight {
+  color: black; /* Change this to the desired color */
+}
