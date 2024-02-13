@@ -165,6 +165,9 @@ video {
   min-height: 100%;
 }
 
+
+
+
 #video:after {
   content: '';
   opacity: 0.75;
@@ -174,7 +177,7 @@ video {
   /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #4096ee 0%, #39ced6 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #f8f9f9 0%, #44f6db 100%);
+  background: linear-gradient(to bottom, #ebfefe 0%, #39ced6  100%);
   /* #e407f4 */
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4096ee', endColorstr='#39ced6', GradientType=0);
@@ -397,11 +400,11 @@ a#logo {
 }
 
 .navbar-nav li a {
-  color: #fff;
+  color:rgb(53, 46, 134);
   font-size: 15px;
   text-decoration: none;
   display: block;
-  font-weight: 500;
+  font-weight: 650;
   opacity: 0.9;
 }
 
@@ -505,6 +508,22 @@ a#logo {
   margin-bottom: 10px;
   letter-spacing: 0.02em;
 }
+.welcome-box .QtLogo{
+  gap: 75px;
+}
+
+.welcome-box .QtLogo img{
+  
+  margin: 15px;
+  width: 180px;
+  height:40px;
+}
+/* #NokiaQtCertifiedSpecialistLogo_lrg{
+  height: 50px;
+}
+#Nokia_Certified_Qt_Developer_Logo-4{
+  height: 50px;
+} */
 
 .welcome-title span {
   font-size: 36px;
@@ -652,7 +671,10 @@ a#logo {
 
 .services-list .item:hover {
   background-color: #fff;
-  color: #1e1e1e;
+  color: #161313;
+}
+.services-list .item:hover p{
+  color: #161313;
 }
 
 .service-box h3 {
@@ -1015,7 +1037,7 @@ textarea.form-control {
 
 .container{
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   gap: 10px;
   justify-content: center;
   align-items: center;
@@ -1191,6 +1213,11 @@ footer {
   }
 }
 
+.secDiv .notification h4{
+  margin-bottom: 7px;
+  color: #5a6993;
+}
+
 @media screen and (max-width: 768px) {
   .secDiv {
     grid-template-columns: auto; 
@@ -1202,14 +1229,11 @@ footer {
 
 
 
-
-
-
-
 /*      Announcement css */
 .announcements{
   width: 100%;
   align-items: center;
+  font-family: 'Times New Roman', Times, serif;
 
   
   /* border: 1px solid black; */
@@ -1237,6 +1261,7 @@ footer {
 }
 
 .announcements .announcement h4{
+  color: #374d89;
   margin-bottom: 5px;
   align-items: center;
 }
@@ -1246,5 +1271,21 @@ footer {
 }
 
 .highlight {
-  color: black; /* Change this to the desired color */
+  color: rgb(53, 73, 122); /* Change this to the desired color */
+}
+
+
+
+
+
+
+
+h2.mobile-only {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  h2.mobile-only {
+      display: block;
+  }
 }
