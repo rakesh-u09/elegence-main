@@ -132,7 +132,7 @@
 }
 .owl-carousel .owl-item .owl-lazy {
   opacity: 0;
-  transition: opacity 0.4s ease;
+  transition: opacity 0.2s ease;
 }
 .owl-carousel .owl-item .owl-lazy:not([src]),
 .owl-carousel .owl-item .owl-lazy[src^=""] {
