@@ -1037,8 +1037,8 @@ textarea.form-control {
 
 .container{
   display: grid;
-  grid-template-columns: auto auto auto auto auto ;
-  gap: 10px;
+  grid-template-columns: auto auto auto auto;
+  gap: 5px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -1054,7 +1054,7 @@ textarea.form-control {
   .logosDiv{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto ;
-    gap: 10px;
+    gap: 6px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -1075,16 +1075,16 @@ textarea.form-control {
 
   .logosDiv .logo
   {
-    margin: 6px;
-    width: auto;
-    height:70px ;
-    padding: 3%;
-    /* background: #e8e9ec; */
-    /* box-shadow: 0.6em 0.6em 1.2em #20140dac; */
-    /* border-radius: 20px; */
+    /* margin: 6px; */
+    width: 185px;
+    height:75px ;
+    padding: 4%;
+    background-color: #e8e9ec;
+    box-shadow: 0.6em 0.6em 1.2em #211108ac;
+    border-radius: 15px;
     display: flex;
-  justify-content: center;
-  align-items: center;
+   justify-content: center;
+    align-items: center;
   }
 
   @media only screen and (max-width: 768px) {
@@ -1218,7 +1218,7 @@ footer {
 }
 .secDiv .notification{
   /* background-color: rgb(190, 188, 188); */
-  background-color: rgba(250, 250, 250, 0.274);
+  background-color: #e8e9ec;
   height: 320px;
   width: 400px;
   padding: 15px;
@@ -1229,12 +1229,15 @@ footer {
 .secDiv .notification h4{
   font-style:normal;
   font-weight: bolder;
+  color: black;
   
 }
 .secDiv .notification p{
   font-family:'Times New Roman', Times, serif;
+  color: black;
 }
 .secDiv .notification h6{
+  color: black;
   display: block;
   font-size: .95em;
   /* margin-left: 0;
@@ -1243,6 +1246,7 @@ footer {
 }
 .secDiv .notification ul{
   list-style-type: square;
+  color: black;
   font-family: 'Times New Roman', Times, serif;
 }
 .secDiv ul li {
