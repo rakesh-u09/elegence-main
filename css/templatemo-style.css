@@ -174,7 +174,7 @@ video {
   /* FF3.6-15 */
   /* background: -webkit-linear-gradient(top, #4096ee 0%, #39ced6 100%); */
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #f9f9f9 0%, #67c3b2  100%);
+  background: linear-gradient(to bottom, #eef3f8 0%,  #39ced6  100%);
   /* #e407f4 */
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4096ee', endColorstr='#39ced6', GradientType=0);
@@ -279,7 +279,7 @@ video {
   /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #4096ee 0%, #39ced6 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #4096ee 0%, #02e4f0 100%);
+  background: linear-gradient(to bottom, #4096ee 0%, #d1dbdc 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4096ee', endColorstr='#39ced6', GradientType=0);
   /* IE6-9 */
@@ -515,12 +515,13 @@ a#logo {
   width: 180px;
   height:40px;
 }
-/* #NokiaQtCertifiedSpecialistLogo_lrg{
-  height: 50px;
+#NokiaQtCertifiedSpecialistLogo_lrg{
+  border-radius: 5px;
 }
 #Nokia_Certified_Qt_Developer_Logo-4{
-  height: 50px;
-} */
+  border-radius: 5px;
+
+}
 
 .welcome-title span {
   font-size: 36px;
