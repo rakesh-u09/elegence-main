@@ -25,7 +25,7 @@
     width: 100%;
 }
 
-.logo {
+/* .logo {
     flex: 0 0 auto;
     padding: 15px;
     height: 60px;
@@ -34,7 +34,7 @@
 .logo img {
     height: 100%;
     margin: 0 25px;
-}
+} */
 
 @keyframes moveLeft {
     0% {
@@ -91,7 +91,29 @@
   width: auto;
   align-items: center;
 }
+#Bharat_Electronics_Limited{
+  width: 250px;
+}
+#LG{
+  width: 150px;
+}
+#Visteon-Logo{
+  width: 100px;
+}
+#Harman{
+  height: 70px;
+  width: 150px;
+}
+#wipro{
+  height: 70px;
+}
+#intel{
+  height: 65px;
+}
 
+#kpit{
+  width: 175px;
+}
 .slider .slideLogo img{
  height: auto;
  width: 150px;
@@ -99,27 +121,53 @@
 #infosys-logo{
   width: 175px;
 }
+#ibm{
+  height: 60px;
+}
+#HCL{
+  height: 180px;
+ 
+}
+#abb{
+  height: 50px;
+}
 #baxter{
   height: 100px;
 }
 #Benz{
-  width: 95px;;
+  height: 65px;
+  width: 90px;;
+}
+#fastCharging{
+  height:65px;
+  width:75px
 }
 
 #siemens-ag-logo{
-  width: 200px;
+  width: 150px;
 }
 
 #Tektronix{
   height: 50px;
-  width: 450x;
+  width: 45x;
 }
 
 #l-and-t-technology-services-logo{
-  width: 400px;
+  width: 300px;
   height:50px;
+}
+#volvo{
+  height: 75px;
 }
 
 #LandTInfo{
-  width: 300px;
+  width: 250px;
+}
+
+#atos{
+  width: 125px;
+}
+
+#NXP{
+  width: 125px;
 }
