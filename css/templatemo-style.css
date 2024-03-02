@@ -1093,8 +1093,8 @@ textarea.form-control {
   .logosDiv .logo
   {
     /* margin: 6px; */
-    width: 185px;
-    height:75px ;
+    width: 150px;
+    height:50px ;
     padding: 4%;
     background-color: #e8e9ec;
     box-shadow: 0.6em 0.6em 1.2em #211108ac;
@@ -1119,6 +1119,9 @@ textarea.form-control {
 
     .container .card{
       width: 100%;
+    }
+    .logosDiv{
+      grid-template-columns: auto auto;
     }
 
   }
@@ -1343,6 +1346,13 @@ footer {
     padding: 10px;
     margin: 25px;
   }
+ 
+}
+@media screen and (max-width: 1024px){
+  .logosDiv{
+    grid-template-columns: auto auto auto;
+  }
+  
 }
 
 .secDiv .notification h4{
@@ -1357,8 +1367,13 @@ footer {
     padding: 10px;
     margin: 25px;
   }
+  
 }
-
+@media screen and (max-width: 768px){
+  .logosDiv{
+    grid-template-columns: auto auto auto;
+  }
+}
 
 
 /*      Announcement css */
