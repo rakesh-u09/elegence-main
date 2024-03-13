@@ -1075,7 +1075,7 @@ textarea.form-control {
   .logosDiv{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto ;
-    gap: 6px;
+    gap: 10px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -1091,11 +1091,11 @@ textarea.form-control {
     }
   }
 
-  .logosDiv .logo
+  /* .logosDiv .logo
   {
-    /* margin: 6px; */
-    width: 125px;
-    height:50px ;
+   
+    width: 200px;
+    height:85px ;
     padding: 4%;
     background-color: #e8e9ec;
     box-shadow: 0.6em 0.6em 1.2em #211108ac;
@@ -1103,7 +1103,21 @@ textarea.form-control {
     display: flex;
    justify-content: center;
     align-items: center;
+  } */
+
+  .logosDiv .logo {
+    width: 175px;
+    height: 85px;
+    padding: 4%;
+    border: double black 1px;
+    background-color:white;
+    box-shadow: 0.6em 0.6em 1.2em #211108ac;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
 
   @media only screen and (max-width: 768px) {
     /* .menu-icon {
@@ -1154,6 +1168,7 @@ textarea.form-control {
   padding: 3%;
   background: #e8e9ec;
   box-shadow: 0.6em 0.6em 1.2em #20140dac;
+  border: solid black 1px;
   border-radius: 20px;
 }
 .container1 .card{
@@ -1163,6 +1178,7 @@ textarea.form-control {
   padding: 3%;
   background: #e8e9ec;
   box-shadow: 0.6em 0.6em 1.2em #20140dac;
+  border: solid black 1px;
   border-radius: 20px;
 }
 
