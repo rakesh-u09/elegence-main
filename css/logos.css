@@ -95,17 +95,17 @@
   width: 250px;
 }
 #LG{
-  width: 100px;
+  width: 80px;
 }
 #Visteon-Logo{
-  width: 100px;
+  width: 80px;
 }
 #Harman{
   height: 40px;
   width: 100px;
 }
 #wipro{
-  height: 70px;
+  height: 55px;
 }
 #intel{
   height: 45px;
@@ -135,21 +135,41 @@
   height: 100px;
 }
 #Benz{
-  height: 70px;
+  height: 60px;
   width: 100px;;
 }
 #fastCharging{
-  height:70px;
+  height:60px;
   width:100px
 }
-
+#infinite{
+  height: 50px;
+  width: 60px;
+}
 #siemens-ag-logo{
   width: 100px;
+}
+#kobil{
+  height: 25px;
+}
+#green-cubes{
+  /* width: 75px; */
+  height: 40px;
+}
+#exampad{
+  height: 35px;
+}
+#Ametek{
+  height: 50px;
+  width: 95px;
 }
 
 #Tektronix{
   height: 30px;
   width: 30x;
+}
+#emerson{
+  height: 85px;
 }
 
 #l-and-t-technology-services-logo{
@@ -157,7 +177,7 @@
   height:50px;
 }
 #volvo{
-  height: 75px;
+  height: 55px;
 }
 
 #LandTInfo{
@@ -169,5 +189,5 @@
 }
 
 #NXP{
-  width: 100px;
+  width: 85px;
 }

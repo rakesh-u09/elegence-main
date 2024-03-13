@@ -1074,8 +1074,8 @@ textarea.form-control {
 
   .logosDiv{
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto ;
-    gap: 10px;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    gap: 7px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -1106,8 +1106,8 @@ textarea.form-control {
   } */
 
   .logosDiv .logo {
-    width: 175px;
-    height: 85px;
+    width: 140px;
+    height: 70px;
     padding: 4%;
     border: double black 1px;
     background-color:white;
